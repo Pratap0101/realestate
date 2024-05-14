@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.MainContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+}
+
+.cotainer2{
+    background-color: gray;
+    height: 250px;
+    width: 250px;
+}

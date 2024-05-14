@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.navContainer{
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nabSubContainer{
+    height: 100px;
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBrandContainer{
+    height: 100px;
+    width: 30%;
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navLinksContainer{
+    height: 100px;
+    width: 60%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anquerLinkStyles{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.linksMainCotainer{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.brandSty{
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.brandDes{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.heroMainContainer{
+    position: relative;
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+
+    position: absolute;
+    width: 100%;
+    top: 6%;
+}
